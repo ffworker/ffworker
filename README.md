@@ -12,12 +12,6 @@ Practical-first, gamified CKA training: Terraform and Ansible build a disposable
 
 [Repository](https://github.com/ffworker/cka-lab)
 
-### 🧠 [Local RAG Bot](https://github.com/ffworker/local-ragbot)
-
-Local-first agentic RAG assistant with dataset isolation, agent routing, Ollama-backed answers, an extractive fallback, and source-grounding checks.
-
-[Repository](https://github.com/ffworker/local-ragbot)
-
 ### 🌐 [My Digital CV](https://github.com/ffworker/my-digital-cv)
 
 Bilingual technical portfolio built with lightweight HTML, CSS, and JavaScript, validated by GitHub Actions, and published through GitHub Pages.
