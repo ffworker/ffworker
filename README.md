@@ -2,6 +2,8 @@
 
 I build infrastructure you can take apart, understand, and bring back up.
 
+Linux, Kubernetes, virtualization, networking, infrastructure as code, and recovery-focused operations — built on real systems rather than tutorial-only environments.
+
 <p>
   <a href="https://github.com/ffworker/cka-lab"><img src="./assets/cka-lab.svg" width="49%" alt="CKA Lab — public repository. Break Kubernetes on purpose; train against real cluster state." /></a>
   <a href="https://github.com/ffworker/my-digital-cv"><img src="./assets/digital-cv.svg" width="49%" alt="Digital CV — public repository. Bilingual portfolio, checked in CI and published with GitHub Pages." /></a>
@@ -11,6 +13,6 @@ I build infrastructure you can take apart, understand, and bring back up.
 
 <img src="./assets/engineering-practices.svg" width="100%" alt="Provision: Terraform/OpenTofu, Ansible, Cloud-Init. Validate: GitHub Actions CI, pytest, Bash/JSON/YAML checks, strict docs builds. Deliver: scheduled CD, NetBird, SSH deploy, atomic activation, post-deploy verification." />
 
-<sub>In practice: <a href="https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml">lab tests</a> · <a href="https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml">docs validation</a> · <a href="https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/nightly.yml">delivery workflow</a>. OpenTofu work is in the release-pending Proxmox lab. These describe workflows, not live service status.</sub>
+<sub>Implementation examples: <a href="https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml">lab validation</a> · <a href="https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml">documentation CI</a> · <a href="https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/nightly.yml">scheduled delivery</a>. OpenTofu/Proxmox automation will be published with the Proxmox lab.</sub>
 
 [Live portfolio ↗](https://cv.bytegeist.dev) · [Explore repositories ↗](https://github.com/ffworker?tab=repositories)
