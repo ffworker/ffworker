@@ -1,28 +1,79 @@
-<img src="./assets/profile-banner.svg" width="100%" alt="Dennis Kappel / ffworker — Build. Break. Understand. Rebuild. Disposable labs, reproducible systems, documented recovery." />
+<div align="center">
 
-I build and operate infrastructure I can understand when it breaks.
+# Dennis Kappel
 
-Linux, networking, virtualization, containers and Kubernetes are where I spend most of my time. This profile is the technical side of my portfolio: public labs, automation, validation workflows, recovery-oriented documentation and the things I am actively learning.
+**System Administrator · Linux · Infrastructure · Networking**
 
-**[Detailed self-assessed skills →](https://cv.bytegeist.dev/skills.html)**  
-What I can do manually, where I still use documentation or AI heavily, and what I would or would not trust myself to change directly in production.
+I like knowing why a system works — and why it stopped working.
 
-<p>
-  <a href="https://github.com/ffworker/cka-lab"><img src="./assets/cka-lab.svg" width="49%" alt="CKA Lab — public repository. Break Kubernetes on purpose; train against real cluster state." /></a>
-  <a href="https://github.com/ffworker/proxmox-lab"><img src="./assets/proxmox-lab.svg" width="49%" alt="Proxmox Lab — public repository. Reproducible disposable infrastructure with Terraform/OpenTofu, Ansible and Cloud-Init." /></a>
-  <a href="https://github.com/ffworker/bytegeist-docs"><img src="./assets/docs.svg" width="49%" alt="Bytegeist Docs — public repository. Strict documentation builds and verified releases." /></a>
-  <a href="https://github.com/ffworker/my-digital-cv"><img src="./assets/digital-cv.svg" width="49%" alt="Digital CV — public repository. Bilingual portfolio, checked in CI and published with GitHub Pages." /></a>
-</p>
+[CV](https://cv.bytegeist.dev) · [Self-assessed skills](https://cv.bytegeist.dev/skills.html) · [Repositories](https://github.com/ffworker?tab=repositories)
 
-<img src="./assets/engineering-practices.svg" width="100%" alt="Provision: Terraform/OpenTofu, Ansible, Cloud-Init. Validate: GitHub Actions CI, pytest, Bash/JSON/YAML checks, strict docs builds. Deliver: scheduled CD, NetBird, SSH deploy, atomic activation, post-deploy verification." />
+</div>
 
-### Public proof of work
+---
 
-- **[CKA Lab](https://github.com/ffworker/cka-lab)** — Kubernetes break/fix training against real cluster state, disposable Proxmox infrastructure and live validation.
-- **[Proxmox Lab](https://github.com/ffworker/proxmox-lab)** — repeatable disposable infrastructure with Terraform/OpenTofu, Ansible and Cloud-Init, with explicit lifecycle and recovery boundaries.
-- **[Bytegeist Docs](https://github.com/ffworker/bytegeist-docs)** — documentation ownership, validation and controlled delivery across public/private boundaries.
-- **[Digital CV](https://github.com/ffworker/my-digital-cv)** — this portfolio itself: bilingual static site, validation and deployment through GitHub Actions.
+### What I work with
 
-<sub>Implementation examples: <a href="https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml">CKA validation</a> · <a href="https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml">Proxmox/IaC validation</a> · <a href="https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml">documentation CI</a> · <a href="https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/nightly.yml">scheduled delivery</a>.</sub>
+`Linux` · `Bash` · `Docker / Compose` · `Proxmox` · `Networking` · `NetBird / VPN` · `Kubernetes / k3s` · `GitHub Actions` · `NFS / SMB` · `Prometheus / Grafana`
 
-[Human-readable CV ↗](https://cv.bytegeist.dev) · [Detailed skills ↗](https://cv.bytegeist.dev/skills.html) · [Explore repositories ↗](https://github.com/ffworker?tab=repositories)
+I work best when I can understand the whole path: host → network → service → user. I use documentation, search and AI where they make me faster, but I don't treat generated output as understanding. If I can't reason about a change yet, it belongs in a lab first.
+
+### Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
+
+Kubernetes break/fix training against real cluster state. Disposable infrastructure, repeatable failure scenarios and live validation.
+
+**Kubernetes · Terraform · Ansible · Troubleshooting**
+
+</td>
+<td width="50%" valign="top">
+
+#### [Proxmox Lab ↗](https://github.com/ffworker/proxmox-lab)
+
+A disposable Proxmox lab built around repeatability, teardown boundaries and recovery rather than one-off manual setup.
+
+**Proxmox · OpenTofu · Ansible · Cloud-Init**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
+
+Documentation pipeline that keeps public engineering docs separate from private operational source-of-truth while still validating and delivering them automatically.
+
+**Docs-as-code · CI · GitHub Actions · Delivery**
+
+</td>
+<td width="50%" valign="top">
+
+#### [Digital CV ↗](https://github.com/ffworker/my-digital-cv)
+
+The portfolio itself: bilingual static site, explicit technical evidence and validated deployment to GitHub Pages.
+
+**HTML/CSS · GitHub Actions · GitHub Pages**
+
+</td>
+</tr>
+</table>
+
+### How I work
+
+- **Understand before automating.** I want to know what the system is doing before I hide it behind tooling.
+- **Use the right tool, not every tool.** Manual work is fine when automation would add more complexity than value.
+- **Know the boundary.** I am comfortable saying when I need documentation, a sandbox, or a second look.
+- **Keep recovery boring.** Backups, known-good state, rollback paths and useful documentation matter more than cleverness.
+
+### Evidence, not badges
+
+[CKA validation](https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml) · [Proxmox/IaC validation](https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml) · [Docs CI](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml) · [Docs delivery](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/nightly.yml)
+
+---
+
+<sub>More detail without the usual CV skill inflation: <a href="https://cv.bytegeist.dev/skills.html">self-assessed skills →</a></sub>
