@@ -55,9 +55,9 @@ Documentation pipeline that keeps public engineering docs separate from private 
 
 #### [Digital CV ↗](https://github.com/ffworker/my-digital-cv)
 
-The portfolio itself: bilingual static site, explicit technical evidence and validated deployment to GitHub Pages.
+The portfolio itself: bilingual static site, explicit technical evidence and a GitOps promotion path to the live CV.
 
-**HTML/CSS · GitHub Actions · GitHub Pages**
+**HTML/CSS · GitHub Actions · GitOps · Argo CD**
 
 </td>
 </tr>
