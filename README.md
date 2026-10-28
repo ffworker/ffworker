@@ -26,7 +26,7 @@ I work best when I can understand the whole path: host → network → service �
 
 #### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
 
-Kubernetes break/fix training against real cluster state. Disposable infrastructure, repeatable failure scenarios and live validation.
+A self-hosted Kubernetes study lab: disposable infrastructure, eight break/fix missions, and validators that check live cluster state. The lab is meant for hands-on practice, not as a hosted training service.
 
 **Kubernetes · Terraform · Ansible · Troubleshooting**
 
@@ -35,7 +35,7 @@ Kubernetes break/fix training against real cluster state. Disposable infrastruct
 
 #### [Proxmox Lab ↗](https://github.com/ffworker/proxmox-lab)
 
-A disposable Proxmox lab built around repeatability, teardown boundaries and recovery rather than one-off manual setup.
+The infrastructure companion to CKA Lab. Terraform/OpenTofu owns bounded VM lifecycles; Ansible configures the guests; teardown checks guard against removing unrelated resources.
 
 **Proxmox · OpenTofu · Ansible · Cloud-Init**
 
@@ -44,20 +44,31 @@ A disposable Proxmox lab built around repeatability, teardown boundaries and rec
 <tr>
 <td width="50%" valign="top">
 
-#### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
+#### [Signaturee ↗](https://github.com/ffworker/Signaturee-public)
 
-Documentation pipeline that keeps public engineering docs separate from private operational source-of-truth while still validating and delivering them automatically.
+A self-hosted Windows tool for generating Outlook signatures from existing templates and Active Directory data. The web workflow includes employee lookup, preflight, preview and targeted generation; the README spells out where AD, Word and SMB are still required.
 
-**Docs-as-code · CI · GitHub Actions · Delivery**
+**PowerShell · Node.js · Active Directory · IT workflows**
 
 </td>
 <td width="50%" valign="top">
 
+#### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
+
+A docs-as-code design for aggregating selected documentation from its owning repositories while keeping private operational content out of the public repository. The public code shows the validation and delivery workflows; the rendered site is private.
+
+**Documentation · GitHub Actions · Access boundaries**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 #### [Digital CV ↗](https://github.com/ffworker/my-digital-cv)
 
-The portfolio itself: bilingual static site, explicit technical evidence and a GitOps promotion path to the live CV.
+The source for my bilingual CV and self-assessed skills pages. CI checks the source; publication to the current Talos Kubernetes deployment requires a separate, explicit revision update. The former Argo CD path is historical.
 
-**HTML/CSS · GitHub Actions · GitOps · Argo CD**
+**HTML/CSS · GitHub Actions · Talos · git-sync**
 
 </td>
 </tr>
@@ -72,7 +83,9 @@ The portfolio itself: bilingual static site, explicit technical evidence and a G
 
 ### Evidence, not badges
 
-[CKA validation](https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml) · [Proxmox/IaC validation](https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml) · [Docs CI](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml) · [Docs delivery](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/nightly.yml)
+[CKA lab checks](https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml) · [Proxmox/IaC checks](https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml) · [Signaturee source and tests](https://github.com/ffworker/Signaturee-public/tree/main/tests) · [Docs CI](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml)
+
+These links show source and automated checks, not proof that a particular private deployment is currently healthy.
 
 ---
 
