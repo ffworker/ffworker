@@ -2,7 +2,7 @@
 
 # Dennis Kappel
 
-**System Administrator · Linux · Infrastructure · Networking**
+**Systems administration · Linux · infrastructure · automation**
 
 I like knowing why a system works — and why it stopped working.
 
@@ -14,9 +14,9 @@ I like knowing why a system works — and why it stopped working.
 
 ### What I work with
 
-`Linux` · `Bash` · `Docker / Compose` · `Proxmox` · `Networking` · `NetBird / VPN` · `Kubernetes / k3s` · `GitHub Actions` · `NFS / SMB` · `Prometheus / Grafana`
+`Linux` · `Bash` · `Networking` · `Docker / Compose` · `Kubernetes / Talos` · `PowerShell` · `GitHub Actions` · `NFS / SMB` · `Prometheus / Grafana`
 
-I work best when I can understand the whole path: host → network → service → user. I use documentation, search and AI where they make me faster, but I don't treat generated output as understanding. If I can't reason about a change yet, it belongs in a lab first.
+I work best when I can understand the whole path: host → network → service → user. Documentation, search and AI make me faster, but generated output is not understanding by itself. If I cannot reason about a change yet, it belongs in a lab first.
 
 ### Selected work
 
@@ -24,44 +24,56 @@ I work best when I can understand the whole path: host → network → service �
 <tr>
 <td width="50%" valign="top">
 
-#### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
+#### [Signaturee ↗](https://github.com/ffworker/Signaturee-public)
 
-Kubernetes break/fix training against real cluster state. Disposable infrastructure, repeatable failure scenarios and live validation.
+A self-hosted Windows application for generating and deploying Outlook signatures from Active Directory. It combines a web UI, a Node.js API and a PowerShell generator, with template mapping, preflight checks and LDAP self-service.
 
-**Kubernetes · Terraform · Ansible · Troubleshooting**
+The current public release is deliberately narrower than a generic signature platform: it uses existing templates and is not a signature designer.
+
+**Windows · Active Directory · Node.js · PowerShell**
 
 </td>
 <td width="50%" valign="top">
 
-#### [Proxmox Lab ↗](https://github.com/ffworker/proxmox-lab)
+#### [AccessLens ↗](https://github.com/ffworker/accesslens)
 
-A disposable Proxmox lab built around repeatability, teardown boundaries and recovery rather than one-off manual setup.
+A Rust metadata-only browser for effective file access. It compares identities and shows the evidence behind a result without reading file contents, changing ACLs, impersonating users or silently elevating privileges.
 
-**Proxmox · OpenTofu · Ansible · Cloud-Init**
+This is a preview build, with real AD/SMB acceptance still treated as an open validation step.
+
+**Rust · Windows · Linux · Authz · SMB**
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
+#### [Digital CV ↗](https://github.com/ffworker/my-digital-cv)
 
-Documentation pipeline that keeps public engineering docs separate from private operational source-of-truth while still validating and delivering them automatically.
+The portfolio itself: a bilingual static CV with generated skills pages, explicit technical evidence and a separate, reviewable deployment pin to the live site.
 
-**Docs-as-code · CI · GitHub Actions · Delivery**
+The skills page shows where I work independently, where I use documentation or AI, and where I would stay in a lab or ask for review.
+
+**HTML/CSS · Python · GitHub Actions · GitOps**
 
 </td>
 <td width="50%" valign="top">
 
-#### [Digital CV ↗](https://github.com/ffworker/my-digital-cv)
+#### [Documentation Systems Blueprint ↗](https://github.com/ffworker/documentation-systems-blueprint)
 
-The portfolio itself: bilingual static site, explicit technical evidence and a GitOps promotion path to the live CV.
+A vendor-neutral blueprint for evaluating, designing, deploying, migrating and handing over documentation platforms. Docmost is included as a reference implementation, not as a claim about a customer deployment.
 
-**HTML/CSS · GitHub Actions · GitOps · Argo CD**
+The repository focuses on ownership, recovery, migration evidence and operational acceptance rather than just installing a tool.
+
+**Architecture · Documentation · Migration · Operations**
 
 </td>
 </tr>
 </table>
+
+### A note on scope
+
+I keep this page to work I can currently explain and verify. Older lab repositories and Bytegeist Docs remain on GitHub, but they are not part of this selection.
 
 ### How I work
 
@@ -72,7 +84,7 @@ The portfolio itself: bilingual static site, explicit technical evidence and a G
 
 ### Evidence, not badges
 
-[CKA validation](https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml) · [Proxmox/IaC validation](https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml) · [Docs CI](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml) · [Docs delivery](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/nightly.yml)
+[Signaturee quality gate](https://github.com/ffworker/Signaturee-public/actions/workflows/quality-gate.yml) · [AccessLens validation](https://github.com/ffworker/accesslens/actions/workflows/ci.yml) · [Digital CV validation](https://github.com/ffworker/my-digital-cv/actions/workflows/validate.yml) · [Documentation blueprint validation](https://github.com/ffworker/documentation-systems-blueprint/actions/workflows/validate.yml)
 
 ---
 
