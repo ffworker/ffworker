@@ -44,11 +44,15 @@ The infrastructure companion to CKA Lab. Terraform/OpenTofu owns bounded VM life
 <tr>
 <td width="50%" valign="top">
 
-#### [Signaturee ↗](https://github.com/ffworker/Signaturee-public)
+#### [Signaturee ↗](https://signaturee.bytegeist.dev/)
 
-A self-hosted Windows tool for generating Outlook signatures from existing templates and Active Directory data. The web workflow includes employee lookup, preflight, preview and targeted generation; the README spells out where AD, Word and SMB are still required.
+**Windows — available:** a self-hosted browser workflow for IT-managed and employee self-service signatures, using existing templates and Active Directory. Employee lookup, preflight, preview and targeted runs of up to 50 users reduce repeated manual setup. LibreOffice provides RTF conversion; generated Classic Outlook files are not native new Outlook/web deployment.
 
-**PowerShell · Node.js · Active Directory · IT workflows**
+**Linux — experimental:** an independently developed Docker-first edition with offline generation, CLI workflows and a limited development UI. Real LDAP acceptance and the full authenticated UI remain pending.
+
+[Website](https://signaturee.bytegeist.dev/) · [Windows source](https://github.com/ffworker/Signaturee-public) · [Releases](https://github.com/ffworker/Signaturee-public/releases) · [Linux development](https://github.com/ffworker/signaturee-linux)
+
+**PowerShell · Node.js · Active Directory · LibreOffice · IT workflows**
 
 </td>
 <td width="50%" valign="top">
