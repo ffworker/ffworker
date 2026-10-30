@@ -44,13 +44,13 @@ The infrastructure companion to CKA Lab. Terraform/OpenTofu owns bounded VM life
 <tr>
 <td width="50%" valign="top">
 
-#### [Signaturee ↗](https://github.com/ffworker/Signaturee-public) · [Windows releases](https://github.com/ffworker/Signaturee-public/releases) · [Linux work ↗](https://github.com/ffworker/signaturee-linux)
+#### [Signaturee ↗](https://signaturee.bytegeist.dev/)
 
-A self-hosted signature workflow with a Windows path for IT-managed and employee self-service Outlook signatures. The authenticated web UI resolves employees from Active Directory, supports preflight and preview, and limits targeted generation to 50 users per run. Windows uses PowerShell 5.1, Node.js, RSAT and LibreOffice by default for RTF output; Classic Outlook file deployment is separate from new Outlook/web.
+**Windows — available:** a self-hosted browser workflow for IT-managed and employee self-service signatures, using existing templates and Active Directory. Employee lookup, preflight, preview and targeted runs of up to 50 users reduce repeated manual setup. LibreOffice provides RTF conversion; generated Classic Outlook files are not native new Outlook/web deployment.
 
-The Linux/Docker repository is experimental: it is Docker-first and offline-oriented, with a limited development UI; full LDAP authentication and production deployment are still pending. The project website link is intentionally held until its HTTPS deployment is confirmed.
+**Linux — experimental:** an independently developed Docker-first edition with offline generation, CLI workflows and a limited development UI. Real LDAP acceptance and the full authenticated UI remain pending.
 
-<!-- Pending parent confirmation: add [Signaturee website](https://signaturee.bytegeist.dev/) once live HTTPS is confirmed. -->
+[Website](https://signaturee.bytegeist.dev/) · [Windows source](https://github.com/ffworker/Signaturee-public) · [Releases](https://github.com/ffworker/Signaturee-public/releases) · [Linux development](https://github.com/ffworker/signaturee-linux)
 
 **PowerShell · Node.js · Active Directory · LibreOffice · IT workflows**
 
