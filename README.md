@@ -50,7 +50,7 @@ The infrastructure companion to CKA Lab. Terraform/OpenTofu owns bounded VM life
 
 **Linux — experimental:** an independently developed Docker-first edition with offline generation, CLI workflows and a limited development UI. Real LDAP acceptance and the full authenticated UI remain pending.
 
-[Website](https://signaturee.bytegeist.dev/) · [Windows source](https://github.com/ffworker/Signaturee-public) · [Releases](https://github.com/ffworker/Signaturee-public/releases) · [Linux development](https://github.com/ffworker/signaturee-linux)
+[Explore Signaturee ↗](https://signaturee.bytegeist.dev/)
 
 **PowerShell · Node.js · Active Directory · LibreOffice · IT workflows**
 
@@ -87,7 +87,7 @@ The source for my bilingual CV and self-assessed skills pages. CI checks the sou
 
 ### Evidence, not badges
 
-[CKA lab checks](https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml) · [Proxmox/IaC checks](https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml) · [Signaturee source and tests](https://github.com/ffworker/Signaturee-public/tree/main/tests) · [Docs CI](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml)
+[CKA lab checks](https://github.com/ffworker/cka-lab/blob/main/.github/workflows/learning-validate.yml) · [Proxmox/IaC checks](https://github.com/ffworker/proxmox-lab/blob/main/.github/workflows/rocky-kubernetes-proxmox-validate.yml) · [Signaturee verification notes](https://signaturee.bytegeist.dev/#docs) · [Docs CI](https://github.com/ffworker/bytegeist-docs/blob/main/.github/workflows/ci.yml)
 
 These links show source and automated checks, not proof that a particular private deployment is currently healthy.
 
