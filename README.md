@@ -33,7 +33,7 @@ A Kubernetes learning experiment: eight break/fix missions, real-state validator
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 #### [Signaturee ↗](https://signaturee.bytegeist.dev/)
 
@@ -44,15 +44,6 @@ A Kubernetes learning experiment: eight break/fix missions, real-state validator
 [Explore Signaturee ↗](https://signaturee.bytegeist.dev/)
 
 **PowerShell · Node.js · Active Directory · LibreOffice · IT workflows**
-
-</td>
-<td width="50%" valign="top">
-
-#### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
-
-A docs-as-code design for aggregating selected documentation from its owning repositories while keeping private operational content out of the public repository. The public code shows the validation and delivery workflows; the rendered site is private.
-
-**Documentation · GitHub Actions · Access boundaries**
 
 </td>
 </tr>
