@@ -52,15 +52,15 @@ A Kubernetes learning experiment: eight break/fix missions, real-state validator
 
 #### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
 
-**The problem:** documentation scattered across different application and infrastructure repositories. Copying it into a second wiki created two places to maintain — and two places that could disagree.
+**The problem:** documentation scattered across project READMEs and docs folders. A successful bulk importer was not the same as a useful personal reference.
 
-**The solution:** each project keeps its own canonical README/docs; a reviewed source list pulls fresh, revision-pinned Git snapshots into one searchable **private** MkDocs portal. GitHub Actions validates sources, builds the site, and a separate trusted deployment workflow uses NetBird to reach the private server. The source repo contains **no imported private documentation**.
+**The current direction:** I deliberately retired the old VPS02 publisher and started a clean, curated **Zensical v2**. Each repository stays the source of truth; only explicitly selected README/docs files are imported into a private reading copy. The interface gets a Bytegeist visual identity, and the selected source revision is recorded.
 
-**Validation:** offline regression tests and the authorized full-source build passed. Source onboarding is explicit; a repository without approved read access remains excluded rather than granting broad GitHub permissions or inventing completeness.
+**Status:** reproducible local Zensical preview and opt-in source collector are build-tested in CI. **No v2 production deployment or independently accepted private endpoint yet.** The previous MkDocs/GitHub Actions/NetBird implementation remains in the Git history as a practical learning stage, not the current hosting claim.
 
-[Inspect the source importer ↗](https://github.com/ffworker/bytegeist-docs/blob/main/scripts/import_docs.py) · [Source manifest ↗](https://github.com/ffworker/bytegeist-docs/blob/main/docs-sources.yml)
+[Read the complete story ↗](https://blog.bytegeist.dev/artikel/bytegeist-docs/) · [Inspect Zensical v2 ↗](https://github.com/ffworker/bytegeist-docs/tree/main/v2)
 
-**Docs as code · GitHub Actions · MkDocs · NetBird · Least privilege**
+**Zensical · Markdown · Git snapshots · Documentation as code · Selective private access**
 
 </td>
 </tr>
