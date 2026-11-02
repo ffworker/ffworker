@@ -54,7 +54,7 @@ A Kubernetes learning experiment: eight break/fix missions, real-state validator
 
 **The problem:** documentation scattered across project READMEs and docs folders. A successful bulk importer was not the same as a useful personal reference.
 
-**The current direction:** I deliberately retired the old VPS02 publisher and started a clean, curated **Zensical v2**. Each repository stays the source of truth; only explicitly selected README/docs files are imported into a private reading copy. The interface gets a Bytegeist visual identity, and the selected source revision is recorded.
+**The current direction:** I retired the old VPS02 **deployment pipeline** (the former runtime still awaits a safe decommission) and started a clean, curated **Zensical v2**. Each repository stays the source of truth; only explicitly selected README/docs files **will be** collected into a future private reading copy. The interface gets a Bytegeist visual identity, and selected source revisions are recorded.
 
 **Status:** reproducible local Zensical preview and opt-in source collector are build-tested in CI. **No v2 production deployment or independently accepted private endpoint yet.** The previous MkDocs/GitHub Actions/NetBird implementation remains in the Git history as a practical learning stage, not the current hosting claim.
 
