@@ -22,22 +22,13 @@ I work best when I can understand the whole path: host → network → service �
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 #### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
 
-A self-hosted Kubernetes study lab: disposable infrastructure, eight break/fix missions, and validators that check live cluster state. The lab is meant for hands-on practice, not as a hosted training service.
+A Kubernetes learning experiment: eight break/fix missions, real-state validators, and an optional AI tutor designed to give hints rather than solve the task. The learning loop is being re-evaluated before claiming practical outcomes.
 
-**Kubernetes · Terraform · Ansible · Troubleshooting**
-
-</td>
-<td width="50%" valign="top">
-
-#### [Proxmox Lab ↗](https://github.com/ffworker/proxmox-lab)
-
-The infrastructure companion to CKA Lab. Terraform/OpenTofu owns bounded VM lifecycles; Ansible configures the guests; teardown checks guard against removing unrelated resources.
-
-**Proxmox · OpenTofu · Ansible · Cloud-Init**
+**Kubernetes · Troubleshooting · Learning by doing**
 
 </td>
 </tr>
@@ -90,8 +81,6 @@ The source for my bilingual CV and self-assessed skills pages. CI checks the sou
 A few narrow examples with inspectable implementation and explicit success criteria — not generic technology badges:
 
 - **Kubernetes troubleshooting:** [broken Service/EndpointSlice scenario](https://github.com/ffworker/cka-lab/blob/main/scenarios/service-endpoints/scenario.json) + [validator](https://github.com/ffworker/cka-lab/blob/main/scenarios/service-endpoints/validate.sh) requiring the expected selector and two ready backends.
-- **Safe Proxmox automation:** [fail-closed lab lifecycle](https://github.com/ffworker/proxmox-lab/blob/main/scenarios/cka-kubernetes-proxmox/scripts/lab-factory.sh) rejects unexpected Terraform state and mismatched live VM ownership before destructive teardown.
-- **Kubernetes acceptance with Ansible:** [node scheduling, DNS and HTTP validation playbook](https://github.com/ffworker/proxmox-lab/blob/main/scenarios/rocky-kubernetes-proxmox/playbooks/validate.yml). The [manual reference test](https://github.com/ffworker/proxmox-lab/blob/main/scenarios/rocky-kubernetes-proxmox/README.md#proven-validation) is documented; a clean fully automated rebuild is still an open gate.
 - **Reviewable delivery:** [CV validation workflow](https://github.com/ffworker/my-digital-cv/blob/main/.github/workflows/validate.yml) checks generated EN/DE content and the [static regression tests](https://github.com/ffworker/my-digital-cv/blob/main/tests/test_site.py).
 
 These are links to source, validation logic and documented test boundaries. They do **not** claim an independently reproduced live run, continuously healthy private deployment, or completed restore test. See the [skills page](https://cv.bytegeist.dev/skills.html) for self-assessed proficiency and limitations.
