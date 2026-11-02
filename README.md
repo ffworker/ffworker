@@ -50,6 +50,23 @@ A Kubernetes learning experiment: eight break/fix missions, real-state validator
 <tr>
 <td colspan="2" valign="top">
 
+#### [Bytegeist Docs ↗](https://github.com/ffworker/bytegeist-docs)
+
+**The problem:** documentation scattered across different application and infrastructure repositories. Copying it into a second wiki created two places to maintain — and two places that could disagree.
+
+**The solution:** each project keeps its own canonical README/docs; a reviewed source list pulls fresh, revision-pinned Git snapshots into one searchable **private** MkDocs portal. GitHub Actions validates sources, builds the site, and a separate trusted deployment workflow uses NetBird to reach the private server. The source repo contains **no imported private documentation**.
+
+**Validation:** offline regression tests and the authorized full-source build passed. Source onboarding is explicit; a repository without approved read access remains excluded rather than granting broad GitHub permissions or inventing completeness.
+
+[Inspect the source importer ↗](https://github.com/ffworker/bytegeist-docs/blob/main/scripts/import_docs.py) · [Source manifest ↗](https://github.com/ffworker/bytegeist-docs/blob/main/docs-sources.yml)
+
+**Docs as code · GitHub Actions · MkDocs · NetBird · Least privilege**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 #### [Digital CV ↗](https://github.com/ffworker/my-digital-cv)
 
 The source for my bilingual CV and self-assessed skills pages. CI checks the source; publication to the current Talos Kubernetes deployment requires a separate, explicit revision update. The former Argo CD path is historical.
