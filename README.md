@@ -6,7 +6,7 @@
 
 I like knowing why a system works — and why it stopped working.
 
-[CV](https://cv.bytegeist.dev) · [Self-assessed skills](https://cv.bytegeist.dev/skills.html) · [Repositories](https://github.com/ffworker?tab=repositories)
+[CV](https://cv.bytegeist.dev) · [Self-assessed skills](https://cv.bytegeist.dev/skills.html) · [Bytegeist Blog](https://blog.bytegeist.dev/) · [Repositories](https://github.com/ffworker?tab=repositories)
 
 </div>
 
@@ -14,7 +14,7 @@ I like knowing why a system works — and why it stopped working.
 
 ### What I work with
 
-`Linux` · `Bash` · `Docker / Compose` · `Proxmox` · `Networking` · `NetBird / VPN` · `Kubernetes / k3s` · `GitHub Actions` · `NFS / SMB` · `Prometheus / Grafana`
+`Linux` · `Bash` · `Docker / Compose` · `Proxmox` · `Networking` · `NetBird / VPN` · `Kubernetes / Talos (lab)` · `GitHub Actions` · `NFS / SMB` · `Prometheus / Grafana`
 
 I work best when I can understand the whole path: host → network → service → user. I use documentation, search and AI where they make me faster, but I don't treat generated output as understanding. If I can't reason about a change yet, it belongs in a lab first.
 
@@ -24,26 +24,26 @@ I work best when I can understand the whole path: host → network → service �
 <tr>
 <td colspan="2" valign="top">
 
-#### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
+#### [Signaturee ↗](https://signaturee.bytegeist.dev/)
 
-A Kubernetes learning experiment: eight break/fix missions, real-state validators, and an optional AI tutor designed to give hints rather than solve the task. The learning loop is being re-evaluated before claiming practical outcomes.
+**Windows — available and used in a workplace setting (maintainer-reported):** a self-hosted browser workflow for IT-managed and employee self-service signatures, using existing templates and Active Directory. Employee lookup, preflight, preview and targeted runs of up to 50 users reduce repeated manual setup. LibreOffice provides RTF conversion; generated Classic Outlook files are not native new Outlook/web deployment. The public project is separate from the workplace installation, whose exact installed release is not independently verified.
 
-**Kubernetes · Troubleshooting · Learning by doing**
+**Linux — experimental:** an independently developed Docker-first edition with offline generation, CLI workflows and a limited development UI. Real LDAP acceptance and the full authenticated UI remain pending.
+
+[Explore Signaturee ↗](https://signaturee.bytegeist.dev/) · [Windows v2.0.1 release ↗](https://github.com/ffworker/signaturee-win/releases/tag/v2.0.1) · [The story ↗](https://blog.bytegeist.dev/artikel/signaturee/)
+
+**PowerShell · Node.js · Active Directory · LibreOffice · IT workflows**
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-#### [Signaturee ↗](https://signaturee.bytegeist.dev/)
+#### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
 
-**Windows — available:** a self-hosted browser workflow for IT-managed and employee self-service signatures, using existing templates and Active Directory. Employee lookup, preflight, preview and targeted runs of up to 50 users reduce repeated manual setup. LibreOffice provides RTF conversion; generated Classic Outlook files are not native new Outlook/web deployment.
+A Kubernetes learning experiment: eight break/fix missions, real-state validators, and an optional AI tutor designed to give hints rather than solve the task. The learning loop is being re-evaluated before claiming practical outcomes.
 
-**Linux — experimental:** an independently developed Docker-first edition with offline generation, CLI workflows and a limited development UI. Real LDAP acceptance and the full authenticated UI remain pending.
-
-[Explore Signaturee ↗](https://signaturee.bytegeist.dev/)
-
-**PowerShell · Node.js · Active Directory · LibreOffice · IT workflows**
+**Kubernetes · Troubleshooting · Learning by doing**
 
 </td>
 </tr>
@@ -89,6 +89,7 @@ The source for my bilingual CV and self-assessed skills pages. CI checks the sou
 A few narrow examples with inspectable implementation and explicit success criteria — not generic technology badges:
 
 - **Kubernetes troubleshooting:** [broken Service/EndpointSlice scenario](https://github.com/ffworker/cka-lab/blob/main/scenarios/service-endpoints/scenario.json) + [validator](https://github.com/ffworker/cka-lab/blob/main/scenarios/service-endpoints/validate.sh) requiring the expected selector and two ready backends.
+- **Real-world tooling:** [Signaturee v2.0.1](https://github.com/ffworker/signaturee-win/releases/tag/v2.0.1) is a published Windows build; workplace use of the Windows edition is reported by its maintainer, not independent validation of every installation.
 - **Reviewable delivery:** [CV validation workflow](https://github.com/ffworker/my-digital-cv/blob/main/.github/workflows/validate.yml) checks generated EN/DE content and the [static regression tests](https://github.com/ffworker/my-digital-cv/blob/main/tests/test_site.py).
 
 These are links to source, validation logic and documented test boundaries. They do **not** claim an independently reproduced live run, continuously healthy private deployment, or completed restore test. See the [skills page](https://cv.bytegeist.dev/skills.html) for self-assessed proficiency and limitations.
