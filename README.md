@@ -39,6 +39,19 @@ I work best when I can understand the whole path: host → network → service �
 <tr>
 <td colspan="2" valign="top">
 
+#### [RSS2Slideshow ↗](https://github.com/ffworker/rss2slideshow)
+
+A small, self-hosted RSS news display with a web editor for feeds and design. Docker/Compose, optional article images and QR codes, and local branding/settings that survive code updates. Built as a **personal hobby project in my spare time, outside working hours**; real-world display feedback helped shape the final release.
+
+[Read the story ↗](https://blog.bytegeist.dev/artikel/rss2slideshow/) · [Source ↗](https://github.com/ffworker/rss2slideshow)
+
+**Python · Flask · Docker Compose · RSS · Digital Signage**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 #### [CKA Lab ↗](https://github.com/ffworker/cka-lab)
 
 A Kubernetes learning experiment: eight break/fix missions, real-state validators, and an optional AI tutor designed to give hints rather than solve the task. The learning loop is being re-evaluated before claiming practical outcomes.
